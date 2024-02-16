@@ -1,21 +1,25 @@
 
 h1{
-    font-family: sans-serif; color: red;
+    font-family: sans-serif; color: black;
 }
 
 p{
-    font-family: sans-serif; color: white;
+    font-family: sans-serif; color: black;
 }
 
 a{
-    font-family: sans-serif; color: blue;
+    font-family: sans-serif; color: black;
 }
 
 h2{
-    font-family: sans-serif; color: yellow;
+    font-family: sans-serif; color: black;
 }
 
 
 body{
-    background-color: black;
+    background-color: white;
+}
+
+section a {
+    text-decoration: none;
 }
