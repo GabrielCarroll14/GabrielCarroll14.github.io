@@ -1,0 +1,23 @@
+h1{
+    font-family: 'dosis', sans-serif; color: rgb(22, 163, 206);
+}
+
+p{
+    font-family: 'dosis', sans-serif; color: black;
+}
+
+a{
+    font-family: 'dosis', sans-serif; color: black;
+}
+
+h2{
+    font-family: 'dosis', sans-serif; color: black;
+}
+
+
+body{
+    background-color: rgb(208, 241, 252);
+    text-align: center;
+    margin-top: 150px;
+
+}
