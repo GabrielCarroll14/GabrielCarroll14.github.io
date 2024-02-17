@@ -21,3 +21,7 @@ body{
     margin-top: 150px;
 
 }
+
+section a {
+    text-decoration: none;
+}
