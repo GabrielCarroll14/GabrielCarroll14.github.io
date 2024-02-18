@@ -27,3 +27,14 @@ body{
 section a {
     text-decoration: none;
 }
+
+h1:hover {
+    color: red;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color:blue;
+    transition: color 0.1s;
+
+}
