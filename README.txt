@@ -1,1 +1,1 @@
-My simple portfolio website built from HTML and CSS.
+My simple portfolio website built from HTML and CSS. No JS because I rubbish at that.
