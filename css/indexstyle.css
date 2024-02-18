@@ -29,12 +29,12 @@ section a {
 }
 
 h1:hover {
-    color: red;
+    color: rgb(16, 133, 168);
     transition: color 0.3s;
 }
 
 a:hover{
-    color:blue;
-    transition: color 0.1s;
+    color: rgb(16, 133, 168);
+    transition: color 0.3s;
 
 }
