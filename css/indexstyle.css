@@ -38,3 +38,8 @@ a:hover{
     transition: color 0.3s;
 
 }
+
+p:hover{
+    color: rgb(16, 133, 168);
+    transition: color 0.3s;
+}
