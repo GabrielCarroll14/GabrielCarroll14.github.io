@@ -43,3 +43,8 @@ p:hover{
     color: rgb(16, 133, 168);
     transition: color 0.3s;
 }
+
+h2:hover{
+    color: red;
+    transition: color 0.3s;
+}
