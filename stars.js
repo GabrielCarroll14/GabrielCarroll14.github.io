@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const starsCount = data.stargazers_count;
             if (starsCount !== undefined) {
-                document.getElementById('starsCount').innerText = `⭐ Stars: ${starsCount}`;
+                document.getElementById('starsCount').innerText = `⭐ This sites stars: ${starsCount}`;
             } else {
                 console.error('Stars count not found in the GitHub API response.');
             }
