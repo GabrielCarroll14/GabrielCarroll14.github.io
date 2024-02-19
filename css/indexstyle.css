@@ -48,3 +48,11 @@ h2:hover{
     color: red;
     transition: color 0.3s;
 }
+
+p{
+    transition: transform 0.4s ease-in-out;
+}
+
+p:hover {
+    transform: scale(1.2);
+}
