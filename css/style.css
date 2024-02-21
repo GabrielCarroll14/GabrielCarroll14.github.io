@@ -18,7 +18,7 @@ h2{
 body{
     background-color: rgb(208, 241, 252);
     
-    margin-top: 150px;
+    
     text-align: center;
 
 }
@@ -78,4 +78,33 @@ h1{
 
 h1:hover {
     transform: scale(1.2);
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(173, 173, 233);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: white;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+.navbar li{
+    float: left;
 }
