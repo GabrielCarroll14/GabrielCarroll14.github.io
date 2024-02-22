@@ -1,0 +1,111 @@
+.python image{
+    height: 200px;
+    height: 200px;
+}
+
+.js image{
+    height: 200px;
+    height: 200px;
+}
+
+body {
+    background-color: rgb(7, 7, 66);
+}
+
+body p {
+    color: white;
+    font-family: IBM Plex Sans;
+}
+
+body h1 {
+    color: white;
+    font-family: IBM Plex Sans;
+}
+
+body h1:hover {
+    color: red;
+}
+
+body h2 {
+    color: white;
+    font-family: IBM Plex Sans;
+}
+
+body h2:hover{
+    color: red;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(22, 22, 116);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: IBM Plex Sans;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: white;
+    font-family: IBM Plex Sans;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+.navbar li{
+    float: left;
+}
+
+.boringstuff {
+    text-align: center;
+    background-color: rgb(4, 4, 48);
+    color: white;
+}
+
+.aboutme h2{
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+h3 {
+    font-family: IBM Plex Sans;
+    color: white;
+}
+
+h3:hover{
+    font-family: IBM Plex Sans;
+    color: red;
+}
+
+.headers {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding: 100px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+main a {
+    font-family: IBM plex Sans;
+    
+
+}

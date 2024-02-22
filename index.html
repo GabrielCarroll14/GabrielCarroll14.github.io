@@ -2,53 +2,47 @@
 
 <html>
     <head>
-        <!--Standard stuff-->
-        <link rel="icon" href="assets/icon.jpeg" type="image/x-icon">
         <title>Home</title>
-        <meta name="description" content="Home page of Gabriel Carroll's developer portfolio.">
         
         <!--Fontawsome link-->
         <script src="https://kit.fontawesome.com/af01c66121.js" crossorigin="anonymous"></script>
         
         <!--Link to stylesheet-->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
     
-        <!--Link to google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
-
-        <!--Link to the github stars js script-->
-        <script defer src="stars.js"></script>
-
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTDLFYM6HQ"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-HTDLFYM6HQ');
-        </script>
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    
+        script src="github.js"></script>
+    </head>
+
     <body>
+        
+        <h1>Gabriel's Portfolio</h1>
+        
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="contactme.html">Contact</a></li>
+                <li><a href="aboutme.html">About the developer</a></li>
             </ul>
         </nav>
-        
-        <h1>Gabriel Carroll</h1>
 
         <main>
-            <section>
+            
+            <h1>Gabriel Carroll</h1>
+
+            <section class="headers">
+                <img src="assets/PP.png" alt="My profile pic" height="250" width="250">
                 <h2>Python, Web and iOS developer</h2>
-                <h2 id="starsCount">Loading...</h2>
             </section>
-            <section>
+
+            <section class="icons">
                 <a href="https://github.com/GabrielCarroll14">
                     <i class="fa-brands fa-github fa-2x"></i>
                 </a>
@@ -68,27 +62,22 @@
                     <i class="fa-brands fa-linkedin fa-2x"></i>
                 </a>
             </section>
-            <section>
-                <p> 👋 Hi, i'm Gabriel! I am a 14yo selftaught "programmer" who likes to build stuff in Python and Swift. ✌️</p>
-                <p> I have done several projects in the past, these can I be found on my GitHub profile. 😆</p>
+
+            <section class="description">
+                <p>👋 Hi, i'm Gabriel! I am a 14yo selftaught "programmer" who likes to build stuff in Python and Swift. ✌️</p>
                 <p>I like 🏎️, 💻, 🎵, 🎮 and 🎨! I'm also a huge Apple fanboy (If you mess with apple, you mess with me! 🍎) </p>
             </section>
-            <section>
-                <h2>My skills</h2>
-                <p>These are languages or pieces of software I am either fluent in or have a good amount of experience with. 👍</p>
-                <i class="fa-brands fa-python fa-3x"></i>
-                <i class="fa-brands fa-swift fa-3x"></i>
-                <i class="fa-brands fa-css3-alt fa-3x"></i>
-                <i class="fa-brands fa-html5 fa-3x"></i>
-                <i class="fa-brands fa-git fa-3x"></i>
-                <i class="fa-brands fa-windows fa-3x"></i>
-                <i class="fa-brands fa-linux fa-3x"></i>
-            </section>
-            <section>
-                <h2>Contributing</h2>
+
+            <section class="contributing">
+                <h2>contributing</h2>
                 <p>I am happy to contribute to pretty much any open or closed source project. 😊</p>
                 <p>To do this reach me on any of my socials linked above. 😊</p>
             </section>
+        
         </main>
+
+        <section class="boringstuff">
+            <p>© Copyright Gabriel Carroll 2024.</p>
+        </section>
     </body>
 </html>
