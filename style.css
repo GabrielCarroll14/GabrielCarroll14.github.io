@@ -128,3 +128,19 @@ p:hover{
 .roundedimage{
     border-radius: 10px 20px 30px 40px;
 }
+
+.coding {
+    padding: 20px;
+}
+
+.food {
+    padding: 20px;
+}
+
+.tech {
+    padding: 20px;
+}
+
+.whatilove-text {
+    padding: 20px;
+}
