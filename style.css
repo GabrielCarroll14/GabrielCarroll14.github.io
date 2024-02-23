@@ -51,10 +51,13 @@ body h2:hover{
     display: block;
     color: white;
     font-family: IBM Plex Sans;
+    transition: transform 0.4s ease-in-out;
 }
 
 .navbar a:hover{
     color: red;
+    transform: scale(1.2);
+
 }
 
 .navbar li{
