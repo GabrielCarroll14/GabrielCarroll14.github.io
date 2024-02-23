@@ -90,8 +90,8 @@ h3:hover{
 }
 
 main {
-    text-align: center;
     padding: 100px;
+    text-align: center;
 }
 
 .icons a{
@@ -100,7 +100,7 @@ main {
 }
 
 .icons a:hover{
-    color: red;
+    color: red; 
     cursor: pointer;
 }
 
