@@ -120,3 +120,7 @@ main a {
 .contact a:hover{
     color: red;
 }
+
+p:hover{
+    color: rgb(231, 206, 206);
+}
