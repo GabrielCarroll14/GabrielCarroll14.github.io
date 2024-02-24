@@ -50,10 +50,12 @@ body h2:hover{
 
 }
 
+/* Navbar stuff */
 .navbar li{
     float: left;
 }
 
+/* Apply the stuff to the boringstuff class (this is the copyright and stuff */
 .boringstuff {
     text-align: center;
     background-color: rgb(4, 4, 48);
