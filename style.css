@@ -68,35 +68,42 @@ body h2:hover{
     text-align: center;
 }
 
+/*Change to colour to white and font family to IBM plex sans to all h3 elements */
 h3 {
     font-family: IBM Plex Sans;
     color: white;
 }
 
+/* Change any h3 elemnts to red on hover */
 h3:hover{
     font-family: IBM Plex Sans;
     color: red;
 }
 
+/* In the class headers text-align them to center */
 .headers {
     text-align: center;
 }
 
+/* In the main section apple padding and textalign center */
 main {
     padding: 100px;
     text-align: center;
 }
 
-.icons a{
+/* In the icons claass change the text colour to white and remove text decoration */
+.icons a {
     text-decoration: none;
     color: white;
 }
 
-.icons a:hover{
+/* In the icons class change the colour to red and cursor to pointer on hover */
+.icons a:hover {
     color: red; 
     cursor: pointer;
 }
 
+/* Change the font for all a elements in the main section */
 main a {
     font-family: IBM plex Sans;
 }
@@ -106,7 +113,7 @@ main a {
     color: white;
 }
 
-/* Change the settings of a elements in the contact section*/
+/* Change the settings of a elements in the contact section */
 .contact a{
     text-decoration: none;
     color: white;
