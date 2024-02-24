@@ -17,3 +17,4 @@ These pieces of JavaScript code fetch some of my GitHub details to display them 
 style.css
 The style sheet to improve the look of the webpage.
 
+Pull requests open!
