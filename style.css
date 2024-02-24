@@ -60,10 +60,12 @@ body h2:hover{
     color: white;
 }
 
+/* Center all the icons the the aboutme class section */
 .aboutme h2{
     text-align: center;
 }
 
+/* Center all the icons in the .center class */
 .center {
     text-align: center;
 }
