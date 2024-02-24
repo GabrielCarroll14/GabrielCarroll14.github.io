@@ -101,27 +101,33 @@ main a {
     font-family: IBM plex Sans;
 }
 
+/*Change colour of text in the skills class section. */
 .skills{
     color: white;
 }
 
+/* Change the settings of a elements in the contact section*/
 .contact a{
     text-decoration: none;
     color: white;
 }
 
+/* Change the colour of a elements in the contact section on hover */
 .contact a:hover{
     color: red;
 }
 
+/* Change the colour of p elements on hover */
 p:hover{
     color: rgb(231, 206, 206);
 }
 
+/* I dont even think this is needed any more but im keeping it, because I dont want anything to go wrong if I remove it. I was going to be used to rounf corners of images*/
 .roundedimage{
     border-radius: 10px 20px 30px 40px;
 }
 
+/*Apply padding to all the items in "What I love section"*/
 .coding {
     padding: 20px;
 }
@@ -138,6 +144,7 @@ p:hover{
     padding: 20px;
 }
 
+/*Create images better for mobile*/
 img {
     max-width: 100%;
     height: auto;
