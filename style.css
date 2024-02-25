@@ -190,3 +190,10 @@ img {
 .dropdown:hover .content{
     display: block;
 }
+
+.setuplist {
+    margin-top: 100px;
+    color: white;
+    font-family: IBM plex Sans;
+    margin-left: 800px;
+}
