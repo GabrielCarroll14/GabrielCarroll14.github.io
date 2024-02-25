@@ -41,17 +41,28 @@ body h2:hover{
     display: block;
     color: white;
     font-family: IBM Plex Sans;
-    transition: transform 0.4s ease-in-out;
 }
 
 .navbar a:hover{
     color: red;
-    transform: scale(1.2);
 }
 
 /* Navbar stuff */
 .navbar li{
     float: left;
+}
+
+.navbar .dropdown button{
+    text-decoration: none;
+    border: none;
+    float: left;
+    padding: 15px;
+    background-color: rgb(22, 22, 116);
+    color: white;
+}
+
+.dropdown button:hover{
+    color: red;
 }
 
 /* Apply the stuff to the boringstuff class (this is the copyright and stuff */
@@ -158,4 +169,24 @@ p:hover{
 img {
     max-width: 100%;
     height: auto;
+}
+
+.content a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: IBM plex Sans;
+}
+
+.content {
+    position: absolute;
+    background-color: rgb(32, 32, 130);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
 }
