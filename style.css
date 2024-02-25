@@ -195,5 +195,10 @@ img {
     margin-top: 100px;
     color: white;
     font-family: IBM plex Sans;
-    margin-left: 800px;
+    margin-left: 750px;
+    font-size: 25px;
+}
+
+.setuplist a{
+    color: rgb(80, 80, 192);
 }
