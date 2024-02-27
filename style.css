@@ -196,8 +196,14 @@ img {
     color: white;
     font-family: IBM plex Sans;
     font-size: 25px;
+    margin-left: 700px;
 }
 
 .setuplist a{
     color: rgb(80, 80, 192);
+}
+
+.setuplist a:hover {
+    color: rgb(98, 98, 209);
+
 }
