@@ -68,15 +68,15 @@
     background-color: #131212;
     border-radius: 12px;
     box-shadow: 0 0 0 2px white;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-right: 800px;
+    margin-right: 650px;
     display: flex;
 }
 
 .status:hover{
-    transform: scale(1.02);
+    transform: scale(1.04);
 }
 
 body {
