@@ -1,33 +1,7 @@
-body {
-    background-color: rgb(7, 7, 66);
-}
-
-body p {
-    color: white;
-    font-family: IBM Plex Sans;
-}
-
-body h1 {
-    color: white;
-    font-family: IBM Plex Sans;
-}
-
-body h1:hover {
-    color: red;
-}
-
-body h2 {
-    color: white;
-    font-family: IBM Plex Sans;
-}
-
-body h2:hover{
-    color: red;
-}
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(22, 22, 116);
+    background-color: rgb(0, 0, 0);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -43,10 +17,6 @@ body h2:hover{
     font-family: IBM Plex Sans;
 }
 
-.navbar a:hover{
-    color: red;
-}
-
 /* Navbar stuff */
 .navbar li{
     float: left;
@@ -57,7 +27,7 @@ body h2:hover{
     border: none;
     float: left;
     padding: 15px;
-    background-color: rgb(22, 22, 116);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -72,105 +42,6 @@ body h2:hover{
     color: white;
 }
 
-/* Center all the icons the the aboutme class section */
-.aboutme h2{
-    text-align: center;
-}
-
-/* Center all the icons in the .center class */
-.center {
-    text-align: center;
-}
-
-/*Change to colour to white and font family to IBM plex sans to all h3 elements */
-h3 {
-    font-family: IBM Plex Sans;
-    color: white;
-}
-
-/* Change any h3 elemnts to red on hover */
-h3:hover{
-    font-family: IBM Plex Sans;
-    color: red;
-}
-
-/* In the class headers text-align them to center */
-.headers {
-    text-align: center;
-}
-
-/* In the main section apple padding and textalign center */
-main {
-    padding: 100px;
-    text-align: center;
-}
-
-/* In the icons claass change the text colour to white and remove text decoration */
-.icons a {
-    text-decoration: none;
-    color: white;
-}
-
-/* In the icons class change the colour to red and cursor to pointer on hover */
-.icons a:hover {
-    color: red; 
-    cursor: pointer;
-}
-
-/* Change the font for all a elements in the main section */
-main a {
-    font-family: IBM plex Sans;
-}
-
-/*Change colour of text in the skills class section. */
-.skills{
-    color: white;
-}
-
-/* Change the settings of a elements in the contact section */
-.contact a{
-    text-decoration: none;
-    color: white;
-}
-
-/* Change the colour of a elements in the contact section on hover */
-.contact a:hover{
-    color: red;
-}
-
-/* Change the colour of p elements on hover */
-p:hover{
-    color: rgb(231, 206, 206);
-}
-
-/* I dont even think this is needed any more but im keeping it, because I dont want anything to go wrong if I remove it. I was going to be used to rounf corners of images*/
-.roundedimage{
-    border-radius: 10px 20px 30px 40px;
-}
-
-/*Apply padding to all the items in "What I love section"*/
-.coding {
-    padding: 20px;
-}
-
-.food {
-    padding: 20px;
-}
-
-.tech {
-    padding: 20px;
-}
-
-.whatilove-text {
-    padding: 20px;
-}
-
-/*Create images better for mobile*/
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .content a{
     display: block;
     color: white;
@@ -180,7 +51,7 @@ img {
 
 .content {
     position: absolute;
-    background-color: rgb(32, 32, 130);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -191,19 +62,48 @@ img {
     display: block;
 }
 
-.setuplist {
-    margin-top: 100px;
+.status {
+    margin: 20px;
+    padding: 20px;
+    background-color: #131212;
+    border-radius: 12px;
+    box-shadow: 0 0 0 2px white;
+    transition: transform 0.2s ease;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 650px;
+    display: flex;
+    transform: scale(1.04);
+}
+
+.status:hover{
+    transform: scale(1.08);
+}
+
+body {
+    background-color: black;
     color: white;
-    font-family: IBM plex Sans;
-    font-size: 25px;
-    margin-left: 700px;
 }
 
-.setuplist a{
-    color: rgb(80, 80, 192);
+main {
+    margin-left: 500px;
+    margin-top: 100px;
+    font-family: IBM Plex sans
 }
 
-.setuplist a:hover {
-    color: rgb(98, 98, 209);
+a {
+    text-decoration: none;
+}
 
+.links {
+    color: white;
+}
+
+a {
+    color: rgb(224, 209, 209);
+}
+
+.semibold {
+    font-family: "ubuntu";
+    font-weight: bolder
 }
