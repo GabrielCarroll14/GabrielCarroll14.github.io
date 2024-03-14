@@ -84,7 +84,7 @@ a:hover {
     padding: 2%;
     background-color: #131212;
     border-radius: 12px;
-    box-shadow: 0 0 0 0.1em white; /* Adjust the shadow thickness */
+    box-shadow: 0 0 0 0.1em rgb(192, 192, 225); /* Adjust the shadow thickness */
     transition: transform 0.2s ease;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -113,5 +113,11 @@ a:hover {
     .status {
         margin: 0.5%;
         padding: 0.5%;
+        width: 49%;
     }
+}
+
+.idk {
+    font-family: "Kanit";
+    color: rgb(192, 192, 225);
 }
