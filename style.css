@@ -73,10 +73,11 @@
     text-decoration: none;
     margin-right: 650px;
     display: flex;
+    transform: scale(1.04);
 }
 
 .status:hover{
-    transform: scale(1.04);
+    transform: scale(1.08);
 }
 
 body {
