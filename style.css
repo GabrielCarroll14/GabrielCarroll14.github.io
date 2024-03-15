@@ -122,8 +122,8 @@ a:hover {
     color: rgb(192, 192, 225);
 }
 
-.setupitem {
-    margin: 4%;
+.boxitem {
+    margin: 3%;
     padding: 2%;
     background-color: #131212;
     border-radius: 12px;
@@ -137,6 +137,6 @@ a:hover {
     transform: scale(1);
 }
 
-.setupitem:hover {
+.boxitem:hover {
     transform: scale(1.05); /* Increase scale on hover */
 }
