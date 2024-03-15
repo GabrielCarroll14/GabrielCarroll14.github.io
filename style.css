@@ -121,3 +121,22 @@ a:hover {
     font-family: "Kanit";
     color: rgb(192, 192, 225);
 }
+
+.setupitem {
+    margin: 4%;
+    padding: 2%;
+    background-color: #131212;
+    border-radius: 12px;
+    box-shadow: 0 0 0 0.1em rgb(192, 192, 225); /* Adjust the shadow thickness */
+    transition: transform 0.2s ease;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: space-between; /* Spread items evenly */
+    transform: scale(1);
+}
+
+.setupitem:hover {
+    transform: scale(1.05); /* Increase scale on hover */
+}
