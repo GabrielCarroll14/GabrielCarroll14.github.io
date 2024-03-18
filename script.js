@@ -8,6 +8,7 @@ function changecolour(color) {
     var header = document.getElementById("header");
     var name = document.getElementById("name");
     var navbar = document.getElementById("navbar");
+    var button = document.getElementById("themeButtons");
     
     // If the colour that was passed in when the function was called is black change all the appropriate colours
     if (color == 'black') {

@@ -140,3 +140,8 @@ a:hover {
 .boxitem:hover {
     transform: scale(1.05); /* Increase scale on hover */
 }
+
+button {
+    background-color: black;
+    border: none;
+}

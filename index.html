@@ -46,6 +46,8 @@
         <script src="script.js"></script> 
     </head>
     <body>
+
+        <!--Navbar section-->
         <nav class="navbar" id="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -60,29 +62,41 @@
                 </li>
             </ul>
         </nav>
+
+        <!--Start of the main section-->
         <main>
-            <div>
+
+            <!--Buttons to change colour theme. 'these will be moved to the menubar'-->
+            <div id="themeButtons">
                 <button onclick="changecolour('black')">🌙</button>
                 <button onclick="changecolour('white')">☀️</button>
                 
             </div>
             
             <h1 id="name">✌️ Gabriel Carroll</h1>
+            
+            <!--Headers 'I diddnt include the h1 tag with my name, because if I do it shows as size h4 or something.'-->
             <section class="headers" id="header">
-                
                 <h2>14-year-old Python, Web and iOS developer</h2>
             </section>
+            
+            <!--Some basic description info-->
             <div id="description">
                 <p>👋 Hello World, i'm <span class="semibold">Gabriel</span>, a selftaught <span class="semibold">"programmer"</span> who likes to build stuff in <span class="semibold">Python</span> and <span class="semibold">Swift</span>.</p>
                 <p>I like 🏎️, 💻, 🎵, 🎮 and 🎨! I'm also a <span class="semibold">huge</span> Apple fanboy (If you mess with apple, you mess with me! 🍎) </p>
             </div>
+            
+            <!--Discord status 'still need to update this with lanyard API'-->
             <a href="https://discord.com/users/1161553023261225031" id="status">
                 <section class="status" draggable="true">
                     <img src="assets/icons/Discord Icon.png" alt="" height="50px" width="50px">
+                    
+                    <!--Sub-section that contains my status-->
                     <section class="idk">
                         <p>G-Man14 - Online</p>
                     </section>
                 </section>
             </a>
+
     </body>
 </html>
