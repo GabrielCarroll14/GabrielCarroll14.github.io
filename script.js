@@ -29,4 +29,3 @@ function changecolour(color) {
         navbar.style.color = 'black';
     }
 }
-        
