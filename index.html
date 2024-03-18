@@ -49,14 +49,16 @@
                 var status = document.getElementById("status");
                 var description = document.getElementById("description");
                 var header = document.getElementById("header");
+                var name = document.getElementById("name");
+                var navbar = document.getElementById("navbar");
     
                 if (color == 'black') {
                     document.body.style.backgroundColor = 'black';
-                    title.style.color = 'white';
-                    text.style.color = 'white';
                     status.style.color = 'white';
                     description.style.color = 'white';
                     header.style.color = 'white';
+                    name.style.color = 'white';
+                    navbar.style.color = 'white';
                 }
                 
                 else {
@@ -64,13 +66,15 @@
                     status.style.color = 'black';
                     description.style.color = 'black';
                     header.style.color = 'black';
+                    name.style.color = 'black';
+                    navbar.style.color = 'black';
                 }
             }
         </script>
     
     </head>
     <body>
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -85,14 +89,15 @@
             </ul>
         </nav>
         <main>
-
             <div>
                 <button onclick="changecolour('black')">🌙</button>
                 <button onclick="changecolour('white')">☀️</button>
                 
             </div>
-            <h1>✌️ Gabriel Carroll</h1>
+            
+            <h1 id="name">✌️ Gabriel Carroll</h1>
             <section class="headers" id="header">
+                
                 <h2>14-year-old Python, Web and iOS developer</h2>
             </section>
             <div id="description">
