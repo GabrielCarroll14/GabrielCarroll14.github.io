@@ -7,6 +7,7 @@ function changecolour(color) {
     var description = document.getElementById("description");
     var header = document.getElementById("header");
     var name = document.getElementById("name");
+    var navbar = document.getElementById("navbarUl");
 
     
     // If the colour that was passed in when the function was called is black change all the appropriate colours
@@ -15,6 +16,8 @@ function changecolour(color) {
         description.style.color = 'white';
         header.style.color = 'white';
         name.style.color = 'white';
+        navbar.style.backgroundColor = 'black';
+        navbar.style.color = 'white';
     }
     
     
@@ -24,5 +27,7 @@ function changecolour(color) {
         description.style.color = 'black';
         header.style.color = 'black';
         name.style.color = 'black';
+        navbar.style.backgroundColor = 'white';
+        navbar.style.color = 'black';
     }
 }
