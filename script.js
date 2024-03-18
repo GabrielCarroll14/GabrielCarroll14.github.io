@@ -17,6 +17,7 @@ function changecolour(color) {
         name.style.color = 'white';
     }
     
+    
     // If the passed in colour wasn't black change all appropriate colours
     else {
         document.body.style.backgroundColor = 'white';
