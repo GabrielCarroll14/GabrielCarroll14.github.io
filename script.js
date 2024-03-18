@@ -8,7 +8,10 @@ function changecolour(color) {
     var header = document.getElementById("header");
     var name = document.getElementById("name");
     var navbar = document.getElementById("navbar");
-    var button = document.getElementById("buttons");
+    var buttonLight = document.getElementById("buttonlight");
+    var buttonDark = document.getElementById("buttondark");
+    var buttonDiv = document.getElementById("buttonDiv");
+
     
     // If the colour that was passed in when the function was called is black change all the appropriate colours
     if (color == 'black') {
@@ -18,7 +21,10 @@ function changecolour(color) {
         header.style.color = 'white';
         name.style.color = 'white';
         navbar.style.color = 'white';
-        button.style.backgroundColor = 'white';
+
+        // if the colour is dark which is the dark background we want the buttons also to be black to match the background.
+        buttonDark.style.backgroundColor = 'black';
+        buttonLight.style.backgroundColor = 'black';
     }
     
     // If the passed in colour wasn't black change all appropriate colours
@@ -29,6 +35,9 @@ function changecolour(color) {
         header.style.color = 'black';
         name.style.color = 'black';
         navbar.style.color = 'black';
-        button.style.backgroundColor = 'black';
+
+        // If the colour is light which is the background change the buttons to light to match the background
+        buttonDark.style.backgroundColor = 'white';
+        buttonLight.style.backgroundColor = 'white';
     }
 }

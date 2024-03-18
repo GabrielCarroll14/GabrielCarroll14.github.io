@@ -20,14 +20,7 @@
     float: left;
 }
 
-.dropdown button {
-    text-decoration: none;
-    border: none;
-    float: left;
-    padding: 15px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
+
 
 .dropdown button:hover {
     color: red;
@@ -144,4 +137,13 @@ a:hover {
 button {
     background-color: black;
     border: none;
+}
+
+.navbar button {
+    text-decoration: none;
+    border: none;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
