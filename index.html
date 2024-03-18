@@ -42,6 +42,32 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+        
+        <script>
+            function changecolour(color) {
+
+                var status = document.getElementById("status");
+                var description = document.getElementById("description");
+                var header = document.getElementById("header");
+    
+                if (color == 'black') {
+                    document.body.style.backgroundColor = 'black';
+                    title.style.color = 'white';
+                    text.style.color = 'white';
+                    status.style.color = 'white';
+                    description.style.color = 'white';
+                    header.style.color = 'white';
+                }
+                
+                else {
+                    document.body.style.backgroundColor = 'white';
+                    status.style.color = 'black';
+                    description.style.color = 'black';
+                    header.style.color = 'black';
+                }
+            }
+        </script>
+    
     </head>
     <body>
         <nav class="navbar">
@@ -59,15 +85,21 @@
             </ul>
         </nav>
         <main>
+
+            <div>
+                <button onclick="changecolour('black')">🌙</button>
+                <button onclick="changecolour('white')">☀️</button>
+                
+            </div>
             <h1>✌️ Gabriel Carroll</h1>
-            <section class="headers">
+            <section class="headers" id="header">
                 <h2>14-year-old Python, Web and iOS developer</h2>
             </section>
-            <div>
+            <div id="description">
                 <p>👋 Hello World, i'm <span class="semibold">Gabriel</span>, a selftaught <span class="semibold">"programmer"</span> who likes to build stuff in <span class="semibold">Python</span> and <span class="semibold">Swift</span>.</p>
                 <p>I like 🏎️, 💻, 🎵, 🎮 and 🎨! I'm also a <span class="semibold">huge</span> Apple fanboy (If you mess with apple, you mess with me! 🍎) </p>
             </div>
-            <a href="https://discord.com/users/1161553023261225031">
+            <a href="https://discord.com/users/1161553023261225031" id="status">
                 <section class="status" draggable="true">
                     <img src="assets/icons/Discord Icon.png" alt="" height="50px" width="50px">
                     <section class="idk">
