@@ -73,7 +73,7 @@ a:hover {
 .status {
     margin: 2%;
     padding: 2%;
-    background-color: #131212;
+    background-color: #000000;
     border-radius: 12px;
     box-shadow: 0 0 0 0.1em rgb(192, 192, 225); /* Adjust the shadow thickness */
     transition: transform 0.2s ease;
