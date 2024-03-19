@@ -9,7 +9,6 @@ function changecolour(color) {
     var name = document.getElementById("name");
     var navbar = document.getElementById("navbarUl");
     var status = document.getElementById("status")
-
     
     // If the colour that was passed in when the function was called is black change all the appropriate colours
     if (color == 'black') {
