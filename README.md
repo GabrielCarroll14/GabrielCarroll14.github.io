@@ -2,7 +2,7 @@ G-Man's Portfolio Website
 
 Tech Stack
 
-This portfolio website is built using HTML, CSS, and JavaScript.
+            This portfolio website is built using HTML, CSS, and JavaScript.
 
 Contributing
 
@@ -18,7 +18,8 @@ Alternatively, if you're feeling adventurous:
             Fix the issue yourself.
             Submit a pull request with the updated code.
 
-Contributing to the Site
+Contributing to the Site:
+            
             If you'd like to contribute to the improvement of the site, you can follow these steps:
             Clone the repository to your local machine.
             Make necessary updates or improvements.
