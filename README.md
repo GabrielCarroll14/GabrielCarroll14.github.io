@@ -19,8 +19,7 @@ Alternatively, if you're feeling adventurous:
             Submit a pull request with the updated code.
 
 Contributing to the Site:
-            
-            If you'd like to contribute to the improvement of the site, you can follow these steps:
+
             Clone the repository to your local machine.
             Make necessary updates or improvements.
             Submit a pull request with your changes.
