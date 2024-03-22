@@ -6,7 +6,7 @@ Tech Stack
 
 Contributing
 
-Reporting Issues or Bugs
+Reporting Issues or Bugs:
             
             If you encounter any issues or bugs on the website, please follow these steps:
             Head to the GitHub page of the site.
