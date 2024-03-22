@@ -4,7 +4,7 @@ Tech Stack
 
             This portfolio website is built using HTML, CSS, and JavaScript.
 
-Contributing
+Contributing:
 
 Reporting Issues or Bugs:
             
