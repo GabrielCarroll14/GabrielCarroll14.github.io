@@ -1,24 +1,5 @@
-G-Man's Portfolio Website
+My dev portfolio site!
 
-Tech Stack
+This is my simple developer portfolio side that I build for me to learn the basics of HTML, CSS and JS.
 
-            This portfolio website is built using HTML, CSS, and JS.
-
-Contributing:
-
-Reporting Issues or Bugs:
-
-            Head to the GitHub page of the site.
-            Leave an issue detailing the problem you've encountered.
-            
-Alternatively, if you're feeling adventurous:
-
-            Fork the repository.
-            Fix the issue yourself.
-            Submit a pull request with the updated code.
-
-Contributing to the Site:
-
-            Clone the repository to your local machine.
-            Make necessary updates or improvements.
-            Submit a pull request with your changes.
+If there is anything you can find that is wrong with the site, leave a issue on GitHub. Or, even better, fix the issue yourself then create a pull request with the updated changes ready for me to merge.
