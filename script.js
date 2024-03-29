@@ -32,4 +32,6 @@ function changecolour(color) {
         navbar.style.color = 'black';
         status.style.backgroundColor = 'white';
     }
+
+    document.getElementById('sound1').play();
 }
