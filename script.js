@@ -33,5 +33,5 @@ function changecolour(color) {
         status.style.backgroundColor = 'white';
     }
 
-    document.getElementById('sound1').play();
+    document.getElementById('clicksound').play();
 }
