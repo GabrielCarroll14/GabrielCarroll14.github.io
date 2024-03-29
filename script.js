@@ -31,6 +31,5 @@ function changecolour(color) {
         navbar.style.backgroundColor = 'white';
         navbar.style.color = 'black';
         status.style.backgroundColor = 'white';
-
     }
 }
