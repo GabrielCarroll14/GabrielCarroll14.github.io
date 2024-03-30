@@ -91,7 +91,7 @@
                     
                     <!--Sub-section that contains my status-->
                     <section class="idk" id="idk">
-                        <p id="discordName">Fetching...</p>
+                        <p id="discordName">Fetching Lanyard API data...</p>
                     </section>
                 </section>
             </a>
@@ -104,7 +104,7 @@
                     const json = await response.json();
                     const data = json.data;
 
-                    // Update the discordName element with the relevant data
+                    // Get the element that the status will be put in
                     const discordNameElement = document.getElementById('discordName');
 
                     // Add conditional statments so when in dnd it comes accross as 'gman is in dnd' instead on 'gman is dnd'
