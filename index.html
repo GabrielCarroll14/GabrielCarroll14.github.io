@@ -47,11 +47,9 @@
         <audio id="clicksound" src="assets/sounds/click.mp3" preload="auto"></audio>
         <audio id="hoverclicksound" src="assets/sounds/menuclick.mp3" preload="auto"></audio>
 
-
         <!--Navbar section-->
         <nav class="navbar" id="navbar">
             <ul id="navbarUl">
-                
                 <li><a href="index.html" onmouseenter="menuclicksound()" >Home</a></li>
                 <li><a href="projects.html" onmouseenter="menuclicksound()">Projects</a></li>
                 <li class="dropdown">
@@ -113,6 +111,7 @@
 
                     }
 
+                    // If its not in dnd mode just do the usual thing
                     else {
                         discordNameElement.textContent = data.discord_user.display_name + " is " + data.discord_status;
                     }
