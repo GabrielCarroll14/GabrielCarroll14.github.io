@@ -47,21 +47,26 @@
     </head>
     <body>
 
+        <!--The sound that play when buttons are pressed-->
+        <audio id="clicksound" src="assets/sounds/click.mp3" preload="auto"></audio>
+        <audio id="hoverclicksound" src="assets/sounds/menuclick.mp3" preload="auto"></audio>
+
+
         <!--Navbar section-->
         <nav class="navbar" id="navbar">
             <ul id="navbarUl">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                
+                <li><a href="index.html" onmouseenter="menuclicksound()" >Home</a></li>
+                <li><a href="projects.html" onmouseenter="menuclicksound()">Projects</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-btn">More <i class="fa-solid fa-caret-down"></i></a>
+                    <a href="#" class="dropdown-btn" onmouseenter="menuclicksound()">More <i class="fa-solid fa-caret-down"></i></a>
                     <div class="content" id="navcontent">
-                        <a href="setup.html">Setup</a>
-                        <a href="">Music</a> 
-                        <a href="">Stuff</a>
+                        <a href="setup.html" onmouseenter="menuclicksound()">Setup</a>
+                        <a href="" onmouseenter="menuclicksound()">Music</a> 
+                        <a href="" onmouseenter="menuclicksound()">Stuff</a>
                     </div>
                 </li>
                 <div class="navbuttons">
-                    <audio id="clicksound" src="assets/sounds/click.mp3" preload="auto"></audio>
                         <button id="buttonDark" onclick="changecolour('black')">🌙</button>
                         <button id="buttonlight" onclick="changecolour('white')">☀️</button>
                 </div>

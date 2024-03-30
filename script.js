@@ -35,3 +35,8 @@ function changecolour(color) {
 
     document.getElementById('clicksound').play();
 }
+
+// This is the function that plays audio when the user clicks on a menubar item
+function menuclicksound() {
+    document.getElementById('hoverclicksound').play();
+}
