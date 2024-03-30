@@ -103,10 +103,20 @@
                     const response = await fetch("https://api.lanyard.rest/v1/users/1161553023261225031");
                     const json = await response.json();
                     const data = json.data;
-            
+
                     // Update the discordName element with the relevant data
                     const discordNameElement = document.getElementById('discordName');
-                    discordNameElement.textContent = data.discord_user.display_name + " is " + data.discord_status;
+
+                    // Add conditional statments so when in dnd it comes accross as 'gman is in dnd' instead on 'gman is dnd'
+                    if (data.discord_status == 'dnd') {
+                        discordNameElement.textContent = data.discord_user.display_name + " is in dnd";
+
+                    }
+
+                    else {
+                        discordNameElement.textContent = data.discord_user.display_name + " is " + data.discord_status;
+                    }
+                    
                 });
             </script>
     </body>
