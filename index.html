@@ -95,8 +95,10 @@
             </a>
 
             <script>
+                
                 // Wait for the DOM content to be loaded
                 document.addEventListener("DOMContentLoaded", async () => {
+                    
                     // Fetch the API data
                     const response = await fetch("https://api.lanyard.rest/v1/users/1161553023261225031");
                     const json = await response.json();
