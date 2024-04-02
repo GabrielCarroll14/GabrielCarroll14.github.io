@@ -102,11 +102,7 @@
             <a href="https://discord.com/users/1161553023261225031" onmouseenter="menuclicksound()">
                 <section class="status" draggable="true" id="status">
                     <img src="assets/icons/Discord Icon.png" alt="" height="50px" width="50px">
-                    
-                    <!--Sub-section that contains my status-->
-                    <section class="idk" id="idk">
-                        <p id="discordName">Fetching Lanyard API data...</p>
-                    </section>
+                    <p id="discordName" style="color: rgb(192, 192, 225); ">Fetching Lanyard API data...</p>
                 </section>
             </a>
 
@@ -126,13 +122,13 @@
                     // Add conditional statments so when in dnd it comes accross as 'gman is in dnd' instead on 'gman is dnd'
                     if (data.discord_status == 'dnd') {
                         discordNameElement.textContent = data.discord_user.display_name + " is in do-not-disturb";
-
                     }
 
                     // If its not in dnd mode just do the usual thing
                     else {
                         discordNameElement.textContent = data.discord_user.display_name + " is " + data.discord_status;
                     }
+
                     
                 });
             </script>
