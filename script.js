@@ -10,7 +10,7 @@ function changecolour(color) {
     var navbar = document.getElementById("navbarUl");
     var status = document.getElementById("status")
     
-    // If the colour that was passed in when the function was called is black change all the appropriate colours
+    //If the colour that was passed in when the function was called is black change all the appropriate colours
     if (color == 'black') {
         document.body.style.backgroundColor = 'black';
         description.style.color = 'white';
