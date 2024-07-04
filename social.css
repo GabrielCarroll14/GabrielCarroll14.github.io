@@ -1,0 +1,93 @@
+/* Navbar */
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: white;
+}
+
+.navbar li {
+    float: left;
+}
+
+.dropdown button:hover {
+    color: red;
+}
+
+.content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: none;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+/* Main Content */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+main {
+    margin: 100px auto;
+    width: 80%; /* Adjust as needed */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: rgb(224, 209, 209);
+}
+
+
+
+@media (min-width: 768px) {
+    .status {
+        margin: 1%;
+        padding: 1%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status {
+        margin: 0.5%;
+        padding: 0.5%;
+        width: 49%;
+    }
+}
+
+.navbar button {
+    text-decoration: none;
+    border: none;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.navbar {
+    background-color: red;
+}

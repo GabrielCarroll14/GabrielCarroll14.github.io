@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Standard stuff-->
+    <title>Gabriel - Socials</title>
+    <link rel="icon" href="assets/icons/newicon.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fontawsome, CSS and JS links-->
+    <script src="https://kit.fontawesome.com/af01c66121.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="social.css">
+</head>
+<body>
+    <!--The sound that play when buttons are pressed-->
+    <audio id="clicksound" src="assets/sounds/click.mp3" preload="auto"></audio>
+    <audio id="hoverclicksound" src="assets/sounds/menuclick.mp3" preload="auto"></audio>
+
+    <!--Navbar section-->
+    <nav class="navbar" id="navbar">
+        <ul id="navbarUl">
+            <li><a href="index.html" onmouseenter="menuclicksound()" >Home</a></li>
+            <li><a href="projects.html" onmouseenter="menuclicksound()">Projects</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-btn" onmouseenter="menuclicksound()">More <i class="fa-solid fa-caret-down"></i></a>
+                <div class="content" id="navcontent">
+                    <a href="setup.html" onmouseenter="menuclicksound()">Setup</a>
+                    <a href="" onmouseenter="menuclicksound()">Music</a> 
+                    <a href="" onmouseenter="menuclicksound()">Stuff</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-threads"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-discord"></i>
+</body>
+</html>
